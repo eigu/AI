@@ -48,7 +48,10 @@ public class SpawnObstacle : MonoBehaviour
                 }
             }
         }
+    }
 
+    private void FixedUpdate()
+    {
         _meshSurface.BuildNavMesh();
     }
 
